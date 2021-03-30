@@ -1,0 +1,8 @@
+{%extends "layout.html"%}
+    {%block content%}
+        {%for post in posts%}
+            <h3 style="color:blue;border: solid black">{{post.title}}</h3>
+            <p>By <b>{{post.author}}</b> on <b>{{post["Date"]}} </b></p>
+            <br style="border: 5px solid black">
+        {%endfor%}
+    {%endblock%}

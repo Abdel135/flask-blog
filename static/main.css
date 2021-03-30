@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(243, 243, 243) !important
+}
+
+.site-header .navbar-nav .nav-link {
+    color:#fff  !important;
+    font-size :17px;
+    margin-left:  4px;
+    margin-right: 4px
+  }
+.navbar-brand{
+    font-size:20px !important;
+    font-weight :bold
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    background-color:rgb(4, 64, 194);
+    border-radius: 5px;
+}
+
+.site-header .navbar-nav .nav-link:active {
+    color:white!important;
+    text-decoration:underline
+
+}
+
+.site-header .navbar-nav .nav-link.reg{
+    border-radius: 5px;
+    background-color: rgb(0, 204, 102);
+
+}
+
+.site-header .navbar-nav .nav-link.reg:hover{
+    color: #3e3e3e;
+    background-color: #00ce67c2
+}
+
+.content
+{
+    
+    background-color: white;
+    padding: 15px 20px ;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top:20px
+}
